@@ -1,7 +1,7 @@
 import { Box, Container, Typography, Divider } from "@mui/material";
-import { useAuth } from "../context/Auth/AuthContext";
+import { useAuth } from "../../context/Auth/AuthContext";
 import { useEffect } from "react";
-import { IOrderItem } from "../types/OrderItem";
+import { IOrderItem } from "../../types/OrderItem";
 
 const MyOrderPage = () => {
   const { getMyOrders, myOrders } = useAuth();

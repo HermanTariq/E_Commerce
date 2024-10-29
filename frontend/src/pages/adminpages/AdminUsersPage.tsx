@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { useAuth } from "../context/Auth/AuthContext";
+import { useAuth } from "../../context/Auth/AuthContext";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
-import ConfirmationModal from "../components/ConfirmationModal";
-import PasswordResetModal from "../components/PasswordResetModal";
-import SuccessModal from "../components/SuccessModal";
+import ConfirmationModal from "../../components/ConfirmationModal";
+import PasswordResetModal from "../../components/PasswordResetModal";
+import SuccessModal from "../../components/SuccessModal";
 import LockResetOutlinedIcon from "@mui/icons-material/LockResetOutlined";
 import {
   Button,

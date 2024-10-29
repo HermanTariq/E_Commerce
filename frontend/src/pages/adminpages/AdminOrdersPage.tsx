@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { useAuth } from "../context/Auth/AuthContext";
+import { useAuth } from "../../context/Auth/AuthContext";
 import { Container, Table, TableBody, TableCell, TableHead, TableRow, Select, MenuItem, SelectChangeEvent } from "@mui/material";
-import { IOrder, IOrderItem } from "../types/OrderItem"; 
+import { IOrder, IOrderItem } from "../../types/OrderItem"; 
 
 const AdminOrdersPage = () => {
   const { allOrders, getAllOrders, updateOrderStatus } = useAuth();

@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/client/HomePage";
 import Navbar from "./components/Navbar";
 import RegisterPage from "./pages/RegisterPage";
 import AuthProvider from "./context/Auth/AuthProvider";
@@ -9,13 +9,13 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import CartProvider from "./context/Cart/CartProvider";
 import CheckoutPage from "./pages/CheckoutPage";
 import OrderSuccessPage from "./pages/OrderSuccessPage";
-import MyOrderPage from "./pages/MyOrdersPage";
+import MyOrderPage from "./pages/client/MyOrdersPage";
 import FavoritesProvider from "./context/Favorites/FavoritesProvider";
 import FavoritesPage from "./pages/FavoritesPage";
-import AdminDashboardPage from "./pages/AdminDashboard";
-import AdminUsersPage from "./pages/AdminUsersPage";
-import AdminOrdersPage from "./pages/AdminOrdersPage"
-import AddProductPage from "./pages/AddProductPage";
+import AdminDashboardPage from "./pages/adminpages/AdminDashboard";
+import AdminUsersPage from "./pages/adminpages/AdminUsersPage";
+import AdminOrdersPage from "./pages/adminpages/AdminOrdersPage"
+import AddProductPage from "./pages/adminpages/AddProductPage";
 
 function App() {
   return (

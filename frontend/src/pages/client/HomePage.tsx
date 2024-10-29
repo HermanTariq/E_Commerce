@@ -1,9 +1,9 @@
 import { Box, Grid } from "@mui/material";
 import Container from "@mui/material/Container";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../../components/ProductCard";
 import { useEffect, useState } from "react";
-import { Product } from "../types/Product";
-import { Base_URL } from "../constants/baseUrl";
+import { Product } from "../../types/Product";
+import { Base_URL } from "../../constants/baseUrl";
 
 const HomePage = () => {
     const [products, setProducts] = useState<Product[]>([])

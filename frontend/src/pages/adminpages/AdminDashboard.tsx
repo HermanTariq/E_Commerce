@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { useAuth } from "../context/Auth/AuthContext";
+import { useAuth } from "../../context/Auth/AuthContext";
 import { Container, Grid } from "@mui/material";
-import CustomCard from "../components/CustomCard";
-import { Base_URL } from "../constants/baseUrl";
+import CustomCard from "../../components/CustomCard";
+import { Base_URL } from "../../constants/baseUrl";
 
 const AdminDashboardPage = () => {
   const { allUsers, getAllUsers, getAllOrders, allOrders } = useAuth();

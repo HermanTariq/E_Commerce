@@ -1,7 +1,7 @@
 
 import { Container, Grid, Card, CardContent } from '@mui/material';
-import ProductForm from "../components/ProductForm";
-import ProductTable from "../components/ProductTable";
+import ProductForm from "../../components/ProductForm";
+import ProductTable from "../../components/ProductTable";
 
 const AddProductPage = () => {
   return (
